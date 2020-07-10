@@ -1,0 +1,450 @@
+body{
+	background-color: #e9ebee;
+	font-family: 'open sans', sans-serif;
+	font-size: 16x;
+}
+a{color: #1176b6;}
+a:hover{ text-decoration:underline;
+}
+	   /*--HEADER--*/
+header{
+	background-color: #1176b6;
+	padding: 10px 0;
+}
+header .logo img{
+	height:22px ;
+
+}
+	   /*--BUSCAR--*/
+header .buscar form input[type="text"]{
+	width: 100%;
+	background-color: #fff;
+	border:none;
+	font-size: 12px;
+	padding: 0 10px;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 3px 0 0 3px;
+	color: #6d6d6d;
+	font-family: 'open sans', sans-serif;
+
+}
+header .buscar form button{
+	width: 100%;
+	background-color: #fff;
+	border:none;
+	font-size: 12px;
+	padding: 0 10px;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 0 3px 3px 0;
+	cursor: pointer;
+	color: #6d6d6d;
+}
+header .buscar form button:hover{
+	background-color: #099efc;
+	color: #fff;
+}
+	 /*--MENU--*/
+header .menu{
+	padding: 0px;
+}	 
+body {
+	background: #e9ebee;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+a { color:#1176b6; }
+a:hover { text-decoration: underline; }
+
+/* --- --- HEADER --- --- */
+header {
+	background: #1176b6;
+	padding: 10px 0;
+}
+
+header .logo img {
+	height: 22px;
+}
+
+/* BUSCAR */
+header .buscar form input[type="text"] {
+	width: 100%;
+	background: #fff;
+	border: none;
+	font-size: 12px;
+	padding: 0 10px;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 3px 0 0 3px;
+	color: #6d6d6d;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header .buscar form button {
+	width: 100%;
+	background: #fff;
+	border: none;
+	font-size: 12px;
+	padding: 0 10px;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 0 3px 3px 0;
+	cursor: pointer;
+	color: #6d6d6d;
+}
+
+header .buscar form button:hover {
+	background: #099efc;
+	color: #fff;
+}
+
+/* MENU */
+header .menu {
+	padding: 0;
+}
+
+header .menu a {
+	color: rgba(255,255,255,.8);
+	text-decoration: none;
+}
+
+header .menu a:hover {
+	color: rgba(255,255,255,1);
+}
+
+header .menu .imagen {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	overflow: hidden;
+}
+
+header .menu .imagen img {
+	border-radius: 100px;
+}
+
+/* --- --- MAIN --- --- */
+main {
+	padding-top: 20px;
+}
+
+/* --- --- BARRA LATERAL IZQUIERDA --- --- */
+main .barra-lateral-izquierda {
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+
+main .barra-lateral-izquierda nav {
+	border-bottom: 1px solid #c7c8ca;
+	padding-bottom: 20px;
+}
+
+main .barra-lateral-izquierda nav a {
+	display: block;
+	padding: 3px;
+	font-family: 'Roboto', sans-serif;
+	color: #3d3d3d;
+}
+
+main .barra-lateral-izquierda nav a:hover {
+	background: #f2f2f2;
+	text-decoration: none;
+}
+
+main .barra-lateral-izquierda nav a i {
+	margin-right: 10px;
+}
+
+/* --- --- CONTENIDO PRINCIPAL --- --- */
+/* --- PUBLICAR --- */
+main .contenido-principal .publicar {
+	margin-bottom: 20px;
+}
+
+main .contenido-principal .publicar .foto a {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 100px;
+	margin-top: 20px;
+}
+
+main .contenido-principal .publicar .foto img {
+	width: 100%;
+}
+
+main .contenido-principal .publicar form textarea {
+	width: 100%;
+	max-width: 100%;
+	min-height: 100px;
+	max-height: 300px;
+	border: none;
+	padding: 15px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: #565656;
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.35);
+}
+
+main .contenido-principal .publicar form .contenedor-botones {
+	padding: 20px 0;
+	border-bottom: 1px solid #c7c8ca;
+}
+
+main .contenido-principal .publicar form .contenedor-botones a {
+	color: #8d8d8d;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+main .contenido-principal .publicar form .contenedor-botones a:hover {
+	color: #3d3d3d;
+}
+
+main .contenido-principal .publicar form button {
+	border: 1px solid #00609c;
+	padding: 5px 30px;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	background: linear-gradient(to bottom, #1a87cd, #1176b6 100%);
+	color: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+main .contenido-principal .publicar form button:hover {
+	background: linear-gradient(to bottom, #1176b6, #1a87cd 100%);
+}
+
+/* --- PUBLICACIONES --- */
+main .publicacion {
+	margin-bottom: 40px;
+}
+
+main .publicacion .foto a {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	border-radius: 100px;
+}
+
+main .publicacion .foto img {
+	width: 100%;
+}
+
+main .publicacion .nombre {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+main .publicacion .texto {
+	background: #fff;
+	color: #3d3c3c;
+	font-size: 14px;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+
+main .publicacion .imagen {
+	padding: 15px;
+	background: #fff;
+	margin-bottom: 15px;
+}
+
+main .publicacion .imagen img {
+	width: 100%;
+}
+
+main .publicacion .post .caja-botones {
+	margin-bottom: 20px;
+}
+
+main .publicacion .post .caja-botones button {
+	background: #1176b6;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px 20px;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 18px;
+	border-radius: 4px;
+	border: none;
+}
+
+main .publicacion .post .caja-botones button:hover {
+	background: #0d659d;
+}
+
+main .publicacion .post .caja-botones p {
+	margin-bottom: 0;
+	color: #1782c6;
+}
+
+/* --- COMENTARIOS --- */
+main .publicacion .comentario {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #cbcbcb;
+}
+
+main .publicacion .comentario .foto {
+	padding-left: 0;
+	margin-right: 15px;
+}
+
+main .publicacion .comentario .foto a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+
+main .publicacion .comentario form textarea {
+	width: 100%;
+	background: #fff;
+	border: 1px solid #cbcbcb;
+	color: #565656;
+	padding: 8px;
+	min-height: 40px;
+	height: 40px;
+	min-width: 100%;
+	max-width: 100%;
+	font-size: 14px;
+}
+
+main .publicacion .comentario .respuesta {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+main .publicacion .comentario .me-gusta {
+	font-size: 14px;
+}
+/* --- --- BARRA LATERAL DERECHA --- --- */
+main .barra-lateral-derecha h3 {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+main .barra-lateral-derecha .ads a {
+	margin-bottom: 15px;
+	display: inline-block;
+}
+
+main .barra-lateral-derecha .ads a img {
+	width: 100%;
+}
+
+/* --- --- FOOTER --- --- */
+main footer {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+
+main footer a {
+	color: #1176b6;
+	line-height: 14px;
+	margin-right: 10px;
+}
+
+main footer .copyright {
+	color: #919191;
+	margin-top: 10px;
+}
+
+/* --- --- MEDIAQUERIES --- --- */
+@media screen and (max-width: 767px) {
+	main .btn-menu {
+		display: block;
+		border: 1px solid #00609c;
+		padding: 5px 10px;
+		font-size: 14px;
+		background: linear-gradient(to bottom, #1a87cd, #1176b6 100%);
+		color: #fff;
+		border-radius: 3px;
+		cursor: pointer;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	main .btn-menu:hover {
+		text-decoration: none;
+		background: #0d659d;
+	}
+
+	main .fondo-enlace {
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		cursor: pointer;
+		background: rgba(0,0,0,.5);
+		z-index: 99;
+		display: none;
+	}
+
+	main .fondo-enlace.active {
+		display: block;
+	}
+
+	main .barra-lateral-izquierda {
+		width: 85%;
+		position: fixed;
+		z-index: 100;
+		left: 0;
+		top: 0;
+		background: rgba(0,0,0,.85);
+		height: 100vh;
+		margin: 0;
+		padding: 0;
+		transform: translateX(-99.99%);
+		transition: all .3s ease;
+		overflow: scroll;
+	}
+
+	main .barra-lateral-izquierda.active {
+		transform: translateX(0%);
+	}
+
+	main .barra-lateral-izquierda nav {
+		border-bottom: none;
+	}
+
+	main .barra-lateral-izquierda nav a {
+		padding: 20px;
+		color: #fff;
+	}
+
+	main .barra-lateral-izquierda nav a:hover {
+		color: #3d3c3c;
+		background: #fff;
+	}
+}
+
+
+@media screen and (max-width: 575px) {
+	header .menu {
+		padding: 15px 15px 0 15px;
+	}
+
+	main .contenido-principal .publicacion .foto {
+		padding-right: 0;
+	}
+
+	main .contenido-principal .publicacion .foto a {
+		width: 40px;
+		height: 40px;
+	}
+
+	main .contenido-principal .publicar .foto {
+		display: none;
+	}
+}
